@@ -1,0 +1,206 @@
+        * {
+            margin: 0;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: url(nttImage/lan.png);
+            background-size: 100%;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .header {
+            width: 100vw;
+            height: 10vw;
+            line-height: 10vw;
+            text-align: center;
+        }
+
+        .showId {
+            width: 10vw;
+            height: 10vw;
+            float: left;
+        }
+
+        .showId p {
+            width: 10vw;
+            height: 10vw;
+            font-size: 2vw;
+            background: url(nttImage/yellowCircle.png) no-repeat center;
+            background-size: 80%
+        }
+
+        .showTitle {
+            width: 50vw;
+            height: 10vw;
+            margin-left: 15vw;
+            float: left;
+        }
+
+        .showTitle p {
+            color: white;
+            font-weight: bold;
+            font-size: 4.5vw;
+            font-family: 'font/KWGaijiCapitalArea_0';
+        }
+
+        .maturity {
+            width: 20vw;
+            height: 10vw;
+            float: left;
+        }
+
+        .maturity .level {
+            width: 14vw;
+            height: 10vw;
+            color: white;
+            font-size: 2.5vw;
+            float: left;
+        }
+
+        .maturity .icon {
+            width: 6vw;
+            height: auto;
+            position: relative;
+            top: 50%;
+            margin-top: -3vw;
+            /* margin-left: 2vw; */
+            float: left;
+        }
+
+        .content {
+            width: auto;
+            height: auto;
+            /* margin-top: 10px; */
+            margin-left: 4vw;
+            margin-right: 4vw;
+            margin-bottom: 4vw;
+            padding: 2vw;
+            background: white;
+            border: 0.2vw solid yellow;
+        }
+
+        .content .title {
+            width: 100%;
+            height: 14vw;
+        }
+
+        .content .title p {
+            color: black;
+            font-size: 5vw;
+            background: yellow;
+        }
+
+        .content .tag {
+            width: 100%;
+            height: 5vw;
+            margin-top: 1vw;
+            font-size: 0.5vw;
+            line-height: 5vw;
+            text-align: center;
+        }
+
+        .content .tag .tagtitle {
+            width: auto;
+            color: blue;
+            float: left;
+        }
+
+        .content .tag .tagcontent {
+            width: 15vw;
+            margin-left: 1vw;
+            color: black;
+            background: url(nttImage/tag.png) no-repeat center;
+            background-size: 100%;
+            float: left;
+        }
+
+        .content .photoandcount {
+            width: 100%;
+            height: 60vw;
+            margin-top: 1vw;
+        }
+
+        .content .photoandcount .photo {
+            width: 58vw;
+            height: 58vw;
+            float: left;
+        }
+
+        .content .photoandcount .photo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .content .photoandcount .count {
+            position: absolute;
+            width: 22vw;
+            height: 30vw;
+            margin-left: 70vw;
+            float: left;
+        }
+
+        .content .photoandcount .count .reportNumber {
+            width: 100%;
+            height: 100%;
+            background: yellow;
+            float: right;
+        }
+
+        .content .photoandcount .count .reportNumber p {
+            font-size: 2vw;
+            text-align: center;
+        }
+
+        .content .photoandcount .count .reportNumber .number {
+            font-size: 5vw;
+        }
+
+        .content .photoandcount .charts {
+            position: absolute;
+            width: 42vw;
+            height: 58vw;
+            top: 34vw;
+            left: 58vw;
+            background: url(nttImage/ren.png) no-repeat center;
+            background-size: 100%;
+            float: left;
+        }
+
+        .content .outline {
+            width: 100%;
+            height: 50vw;
+            font-size: 2vw;
+        }
+
+        .content .outline .left {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+
+        .content .outline .left p {
+            margin-right: 1.5vw;
+            line-height: 3vw;
+        }
+
+        .content .outline .left p span {
+            color: blue;
+        }
+
+        .content .outline .right {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background: yellow;
+        }
+
+        .content .outline .right p {
+            padding: 0;
+            margin: 1.5vw;
+        }
